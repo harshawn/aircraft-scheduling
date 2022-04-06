@@ -1,3 +1,18 @@
+# Assumptions and compromises
+
+- Used the aircraft 4 letter code, and did not limit to 3.
+- Used purple and green for aircraft timeline, instead of orange as shown in the wireframe.
+- Assumed "idle" time is outside rotation flight times (including turnaround)
+- Assumed utilisation is based on the total rotation flight times (including turnaround)
+- Chose to display all the flights in a list, as I wanted to add in search capability to make it easier to find flights.
+- Assumed there is no limit to how many flights an aircraft can operate
+- Compromised
+  - Testing components
+  - State management (e.g. using rotations in global state with Context and Flights API call can be improved)
+  - Accessibility
+  - Styling opted to use Material UI and inline styles
+  - Issues with TS (e.g. optional chaining didn't seem to work in some places)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
