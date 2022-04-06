@@ -1,6 +1,8 @@
-# Harshawn's Aircraft Scheduling App
+# Harshawn's Aircraft Scheduling App :airplane:
 
-Welcome! This app allows you to schedule the rotation of flights for a specific aircraft.
+Welcome! :wave:
+
+This app allows you to schedule the rotation of flights for a specific aircraft.
 You can do this anywhere from you desktop or mobile device.
 It includes a search filter to help you narrow down flights you're looking for and you can drag and drop rotations in the list.
 
@@ -20,6 +22,7 @@ It includes a search filter to help you narrow down flights you're looking for a
   - Styling opted to use Material UI and inline styles
   - Issues with TS (e.g. optional chaining didn't seem to work in some places)
 
+
 ---
 
 # Getting Started with Create React App
@@ -29,6 +32,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs all the neccessary modules to run the app.
 
 ### `npm start`
 
