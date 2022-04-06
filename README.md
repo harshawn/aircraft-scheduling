@@ -1,6 +1,12 @@
+# Harshawn's Aircraft Scheduling App
+
+Welcome! This app allows you to schedule the rotation of flights for a specific aircraft.
+You can do this anywhere from you desktop or mobile device.
+It includes a search filter to help you narrow down flights you're looking for and you can drag and drop rotations in the list.
+
 # Assumptions and compromises
 
-- Used the aircraft 4 letter code, and did not limit to 3.
+- Used the aircraft 4 letter code, and did not limit to 3 as wireframe displayed.
 - Used purple and green for aircraft timeline, instead of orange as shown in the wireframe.
 - Assumed "idle" time is outside rotation flight times (including turnaround)
 - Assumed utilisation is based on the total rotation flight times (including turnaround)
@@ -9,9 +15,12 @@
 - Compromised
   - Testing components
   - State management (e.g. using rotations in global state with Context and Flights API call can be improved)
+  - Performance (e.g. lack of state management causes app to perform slowly on user interactions)
   - Accessibility
   - Styling opted to use Material UI and inline styles
   - Issues with TS (e.g. optional chaining didn't seem to work in some places)
+
+---
 
 # Getting Started with Create React App
 
